@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #061927;
+    color: #89bfec;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #28597a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#scoreboard {
+    margin-bottom: 20px;
+}
+
+button {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 5s;
+}
+
+#reset {
+    margin-top: 20px;
+}
